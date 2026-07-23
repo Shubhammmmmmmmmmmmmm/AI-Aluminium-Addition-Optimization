@@ -1,0 +1,328 @@
+/* =====================================================
+   JSPL AI LRF Dashboard Theme
+===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"]{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main Background */
+
+.stApp{
+
+    background:#021436;
+    color:white;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+
+    background:#111827;
+    border-right:2px solid #1E293B;
+}
+
+/* Titles */
+
+h1,h2,h3,h4,h5{
+
+    color:white;
+}
+
+/* KPI Cards */
+
+.kpi-card{
+
+    background:#172554;
+
+    padding:18px;
+
+    border-radius:15px;
+
+    border-left:6px solid #3B82F6;
+
+    box-shadow:0px 4px 12px rgba(0,0,0,0.45);
+
+    transition:0.3s;
+
+    margin-bottom:15px;
+
+}
+
+.kpi-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* KPI Number */
+
+.kpi-number{
+
+    font-size:32px;
+
+    font-weight:bold;
+
+    color:#38BDF8;
+
+}
+
+/* KPI Title */
+
+.kpi-title{
+
+    font-size:15px;
+
+    color:#CBD5E1;
+
+}
+
+/* Recommendation Card */
+
+.recommend-card{
+
+    background:#064E3B;
+
+    padding:18px;
+
+    border-radius:15px;
+
+    border-left:6px solid #10B981;
+
+}
+
+/* Warning Card */
+
+.warning-card{
+
+    background:#7C2D12;
+
+    padding:18px;
+
+    border-radius:15px;
+
+    border-left:6px solid orange;
+
+}
+
+/* Prediction Card */
+
+.prediction-card{
+
+    background:#312E81;
+
+    padding:18px;
+
+    border-radius:15px;
+
+    border-left:6px solid #8B5CF6;
+
+}
+
+/* Tables */
+
+thead tr th{
+
+    background:#1E293B !important;
+
+    color:white !important;
+
+}
+
+tbody tr{
+
+    background:#111827 !important;
+
+    color:white !important;
+
+}
+
+/* Metric */
+
+[data-testid="metric-container"]{
+
+    background:#172554;
+
+    border-radius:12px;
+
+    padding:12px;
+
+}
+
+/* Buttons */
+
+.stButton>button{
+
+    background:#2563EB;
+
+    color:white;
+
+    border-radius:10px;
+
+    border:none;
+
+    height:45px;
+
+    font-weight:bold;
+
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+
+}
+
+/* Divider */
+
+hr{
+
+    border:1px solid #334155;
+
+}
+
+/* Footer */
+
+footer{
+
+    visibility:hidden;
+
+}
+
+/* Header */
+
+header{
+
+    visibility:hidden;
+
+}
+
+/* Top Banner */
+
+.banner{
+
+    background:linear-gradient(90deg,#1D4ED8,#0EA5E9);
+
+    padding:20px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    color:white;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+ }
+
+/* Status */
+
+.green{
+
+    color:#22C55E;
+
+    font-weight:bold;
+
+}
+
+.red{
+
+    color:#EF4444;
+
+    font-weight:bold;
+
+}
+
+.yellow{
+
+    color:#FACC15;
+
+    font-weight:bold;
+
+}
+
+/* #######FOR SIDEBAR###### */
+/* ===============================
+   Premium Sidebar
+================================ */
+
+section[data-testid="stSidebar"]{
+
+    background:linear-gradient(180deg,#0B1220,#101827);
+
+    border-right:1px solid rgba(0,200,255,.18);
+
+}
+/* Navigation Box */
+
+ul[data-testid="stSidebarNav"]{
+
+    background:transparent;
+
+}
+/* Option Menu */
+
+.nav{
+
+    gap:10px;
+
+}
+.nav-link{
+
+    background:#162237 !important;
+
+    color:#D1D5DB !important;
+
+    border-radius:12px !important;
+
+    padding:14px 16px !important;
+
+    font-size:16px !important;
+
+    font-weight:500 !important;
+
+    transition:all .25s ease;
+
+    margin-bottom:6px;
+
+    border:1px solid transparent;
+
+}
+.nav-link:hover{
+
+    background:#1C2B45 !important;
+
+    color:#FFFFFF !important;
+
+    border:1px solid rgba(0,229,255,.35);
+
+    transform:translateX(4px);
+
+}
+.nav-link:hover{
+
+    background:#1C2B45 !important;
+
+    color:#FFFFFF !important;
+
+    border:1px solid rgba(0,229,255,.35);
+
+    transform:translateX(4px);
+
+}
+.nav-link i{
+
+    font-size:18px;
+
+    margin-right:8px;
+
+}
+.sidebar .sidebar-content{
+
+    padding-top:10px;
+
+}
