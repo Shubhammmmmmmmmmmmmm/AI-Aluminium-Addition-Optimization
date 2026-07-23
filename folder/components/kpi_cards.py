@@ -49,7 +49,7 @@ def kpi_card(title, value, subtitle, color="#2563EB", icon="📊"):
 
 def show_kpis(selected_heat, recommendation):
 
-    c1, c2, c3, c4, c5 = st.columns(5)
+    c1, c2, c3, c4 = st.columns(4)
 
     with c1:
         kpi_card(
@@ -87,12 +87,12 @@ def show_kpis(selected_heat, recommendation):
             "🤖"
         )
 
-    with c5:
-        kpi_card(
-             "Recovery",
-             f"{recommendation['Recovery']:.1f} %",
-             "Predicted Recovery",
-             "#22C55E",
-             "📈"
+    # with c5:
+    #     kpi_card(
+    #          "Recovery",
+    #          f"{recommendation['Recovery']:.1f} %",
+    #          "Predicted Recovery",
+    #          "#22C55E",
+    #          "📈"
 
-        )
+    #     )
